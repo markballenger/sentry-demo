@@ -5,6 +5,15 @@
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+
+
+      <!-- 
+        A simple button to test throwing an exception
+      -->
+      <button @click="throwError">Throw Error</button>
+
+
+
     </p>
     <h3>Installed CLI Plugins</h3>
     <ul>
@@ -35,6 +44,16 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: { 
+
+    /**
+     * A simple method that throws an
+     */
+    throwError() { 
+      // throw new Error('This is a test exception.')
+    }
+
   }
 }
 </script>
