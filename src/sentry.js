@@ -4,7 +4,7 @@ import RavenVue from 'raven-js/plugins/vue';
 
 //if ('production' === process.env.NODE_ENV) {
     const ravenOptions = {
-        release: 'v1.0',
+        release: 'v1.1',
         environment: 'DEVELOPMENT'
     };
 

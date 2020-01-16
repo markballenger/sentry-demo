@@ -8,7 +8,7 @@ module.exports = {
       'release-mode': 'auto',
       baseSentryURL: 'https://sentry.io/api/0',
       dsn: '<insert your sentry.io dsn>',
-      release: 'v1.0'
+      release: 'v1.1'
     }
   }
 }
