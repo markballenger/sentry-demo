@@ -51,7 +51,7 @@ export default {
      * A simple method that throws an
      */
     throwError() { 
-      // throw new Error('This is a test exception.')
+      throw new Error('This is a test exception.')
     }
 
   }
